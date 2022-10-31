@@ -1,0 +1,64 @@
+{
+ "charts": [
+  {
+   "chart_name": "CPU Utilisation",
+   "label": "CPU Utilisation"
+  },
+  {
+   "chart_name": "Disk Utilisation",
+   "label": "Disk Utilisation"
+  },
+  {
+   "chart_name": "RAM Utilisation",
+   "label": "RAM Utilisation"
+  }
+ ],
+ "content": "[{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Open List\",\"col\":6}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Open Report\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"CPU Utilisation\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Disk Utilisation\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"RAM Utilisation\",\"col\":6}}]",
+ "creation": "2022-10-31 16:39:00.001434",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "chart",
+ "idx": 0,
+ "label": "Server Performance",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Server Performance Log",
+   "link_count": 0,
+   "link_to": "Server Performance Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-10-31 17:07:58.765294",
+ "modified_by": "Administrator",
+ "module": "Server Performance",
+ "name": "Server Performance",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 0.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Open List",
+   "link_to": "Server Performance Log",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "Report Builder",
+   "label": "Open Report",
+   "link_to": "Server Performance Log",
+   "type": "DocType"
+  }
+ ],
+ "title": "Server Performance"
+}
