@@ -1,0 +1,34 @@
+{
+ "based_on": "creation",
+ "chart_name": "RAM Utilisation",
+ "chart_type": "Average",
+ "color": "#449CF0",
+ "creation": "2022-10-31 15:48:05.092359",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "Server Performance Log",
+ "filters_json": "[]",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "last_synced_on": "2022-10-31 16:27:30.202086",
+ "modified": "2022-10-31 16:33:59.343146",
+ "modified_by": "Administrator",
+ "module": "Server Performance",
+ "name": "RAM Utilisation",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ],
+ "time_interval": "Daily",
+ "timeseries": 1,
+ "timespan": "Last Week",
+ "type": "Line",
+ "use_report_chart": 0,
+ "value_based_on": "ram_utilisation",
+ "y_axis": []
+}
