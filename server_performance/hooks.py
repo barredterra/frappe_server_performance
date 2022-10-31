@@ -64,13 +64,13 @@ app_license = "MIT"
 # ------------
 
 # before_install = "server_performance.install.before_install"
-# after_install = "server_performance.install.after_install"
+after_install = "server_performance.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "server_performance.uninstall.before_uninstall"
-# after_uninstall = "server_performance.uninstall.after_uninstall"
+before_uninstall = "server_performance.install.before_uninstall"
+# after_uninstall = "server_performance.install.after_uninstall"
 
 # Desk Notifications
 # ------------------
