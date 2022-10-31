@@ -113,23 +113,23 @@ before_uninstall = "server_performance.install.before_uninstall"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-#	"all": [
-#		"server_performance.tasks.all"
-#	],
-#	"daily": [
-#		"server_performance.tasks.daily"
-#	],
-#	"hourly": [
-#		"server_performance.tasks.hourly"
-#	],
-#	"weekly": [
-#		"server_performance.tasks.weekly"
-#	],
-#	"monthly": [
-#		"server_performance.tasks.monthly"
-#	],
-# }
+scheduler_events = {
+	"all": [
+		"server_performance.tasks.create_server_performance_log"
+	],
+	# "daily": [
+	# 	"server_performance.tasks.daily"
+	# ],
+	# "hourly": [
+	# 	"server_performance.tasks.hourly"
+	# ],
+	# "weekly": [
+	# 	"server_performance.tasks.weekly"
+	# ],
+	# "monthly": [
+	# 	"server_performance.tasks.monthly"
+	# ],
+}
 
 # Testing
 # -------
