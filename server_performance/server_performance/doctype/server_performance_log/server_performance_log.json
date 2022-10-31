@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "autoname": "autoincrement",
+ "creation": "2022-10-31 14:52:56.501117",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cpu_utilisation",
+  "ram_utilisation",
+  "disk_utilisation"
+ ],
+ "fields": [
+  {
+   "fieldname": "cpu_utilisation",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "CPU Utilisation",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ram_utilisation",
+   "fieldtype": "Percent",
+   "in_standard_filter": 1,
+   "label": "RAM Utilisation",
+   "read_only": 1
+  },
+  {
+   "fieldname": "disk_utilisation",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Disk Utilisation",
+   "read_only": 1
+  }
+ ],
+ "links": [],
+ "modified": "2022-10-31 16:45:14.919772",
+ "modified_by": "Administrator",
+ "module": "Server Performance",
+ "name": "Server Performance Log",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
