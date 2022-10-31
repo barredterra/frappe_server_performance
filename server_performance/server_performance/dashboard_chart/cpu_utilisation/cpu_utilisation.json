@@ -1,0 +1,35 @@
+{
+ "based_on": "creation",
+ "chart_name": "CPU Utilisation",
+ "chart_type": "Average",
+ "color": "#449CF0",
+ "creation": "2022-10-31 14:54:41.692886",
+ "custom_options": "",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "Server Performance Log",
+ "filters_json": "[]",
+ "group_by_type": "Count",
+ "idx": 2,
+ "is_public": 1,
+ "is_standard": 1,
+ "last_synced_on": "2022-10-31 17:04:04.487700",
+ "modified": "2022-10-31 17:04:31.081412",
+ "modified_by": "Administrator",
+ "module": "Server Performance",
+ "name": "CPU Utilisation",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ],
+ "time_interval": "Daily",
+ "timeseries": 1,
+ "timespan": "Last Week",
+ "type": "Line",
+ "use_report_chart": 0,
+ "value_based_on": "cpu_utilisation",
+ "y_axis": []
+}
